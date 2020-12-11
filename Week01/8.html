@@ -161,7 +161,7 @@
                 if (pattern[i * 3 + j] == 0) {
                     let tmp = clone(pattern);
                     tmp[i * 3 + j] = color;
-                    let r = bestChoice(tmp, 3- color).result;
+                    let r = bestChoice(tmp, 3 - color).result;
 
                     if (-r >= result) {
                         point = [i, j];
